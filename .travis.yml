@@ -15,12 +15,8 @@ dist:
 # * https://docs.travis-ci.com/user/migrating-from-legacy/#How-do-I-install-APT-sources-and-packages%3F
 addons:
   apt:
-    sources:
-      - llvm-toolchain-trusty-6.0
     packages:
-      - libllvm6.0
-      - libstdc++6
-      - clang-format-6.0
+      - clang-format-5.0
 
 script:
-  - which clang-format-6.0
+  - which clang-format-5.0
