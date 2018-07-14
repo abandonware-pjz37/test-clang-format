@@ -18,6 +18,8 @@ addons:
     sources:
       - llvm-toolchain-trusty-6.0
     packages:
+      - libllvm6.0
+      - libstdc++6
       - clang-format-6.0
 
 script:
