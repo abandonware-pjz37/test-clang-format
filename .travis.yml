@@ -20,3 +20,4 @@ addons:
 
 script:
   - which clang-format-5.0
+  - clang-format-5.0 --version
