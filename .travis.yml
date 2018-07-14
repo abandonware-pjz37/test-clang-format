@@ -16,8 +16,8 @@ dist:
 addons:
   apt:
     packages:
-      - clang-format-5.0
+      - clang-format
 
 script:
-  - which clang-format-5.0
-  - clang-format-5.0 --version
+  - which clang-format
+  - clang-format --version
